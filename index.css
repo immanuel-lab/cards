@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:black;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    margin-top:50px;
+    flex-wrap:wrap;
+      
+}
+.card{
+    background:white;
+    width: 270px;
+    /* height: 500px; */
+    margin: 20px;
+    border-radius:15px ;
+}
+.card-image{
+    height:180px;
+    margin-bottom :15px;
+    background-size: cover;
+    border-radius:15px 15px 0 0;
+   
+   }
+   .text{
+       font: 10px;
+   }
+.car1{
+    background-image: url('campbell-3ZUsNJhi_Ik-unsplash.jpg');
+}
+.car2{
+    background-image:url("aaron-huber-8qYE6LGHW-c-unsplash.jpg")
+}
+.car3{
+    background-image:url('stefan-rodriguez-2AovfzYV3rc-unsplash.jpg')
+}
+.card a{
+    background:black;
+    padding: 15px 20px;
+    display:block;
+    color:white;
+    text-align: center;
+    text-decoration:none;
+    margin:20px 50px;
+}
+.card:hover{
+    background-color:gray;
+    color:white;
+    cursor: pointer;
+    transform: scale(1.15);
+    transition:all 1s ease;
+    
+}
